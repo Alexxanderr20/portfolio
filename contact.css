@@ -4,8 +4,59 @@ body
 }
 
 h2
-{
+{   padding: 2%;
+    display: inline-block;
+    margin-left: 10%;
+    background-color: aquamarine;
     color: aliceblue;
     font-size: 45px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p
+{
+    margin-left: 10%;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+form
+{
+    /* font-size: px; */
+    padding: 4%;
+    display: inline-block;
+    background-color: gainsboro;
+    margin-left: 10%;
+}
+
+#name, #email
+{
+    font-size: 18px;
+    display: inline-block; 
+    /* margin: 1%; */
+}
+
+#subject
+{
+    font-size: 18px;
+    display: inline-block;
+    width: 98%;
+    margin-top: 4%;
+}
+
+#message
+{
+    font-size: 18px;
+    display: inline-block;
+    width: 98%;
+    margin-top: 4%;
+}
+
+#submit
+{
+    font-size: 18px;
+    display: inline-block;
+    text-align: right;
+    margin-top: 4%;
 }
