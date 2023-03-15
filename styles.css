@@ -1,0 +1,43 @@
+body
+{
+    background-color: black;
+}
+
+a
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: blue;
+}
+
+/* h1
+{
+    
+} */
+
+#intro
+{
+    margin-left: 10%;
+    margin-top: 25%;
+    display: block;
+    text-align: left;
+    color: aliceblue;
+    font-size: 35px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#contact-me
+{   
+    position: absolute;
+    padding: 2%;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10%;
+    display: inline-block;
+    background-color: cadetblue;
+    
+}
