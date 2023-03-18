@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" href= "styles/styles.css">
         <title>
-            Edward | Web Portfolio
+            Rock,Paper,Scissors
         </title>
+        <link rel = "stylesheet" type = "text/css" href = "rps.css">
     </head>
 
     <body>
-        <nav>
-            <ul>
-                <li><a href = "about.html">About</a></li>
-                <li><a href = "projects.html">Projects</a></li>
-                <!-- <li><a href = "contact.html">Contact</a></li> -->
-                <li><a href = "resume">Resume</a></li>
-            </ul>
+
+    <!-- creating a scoreboard to keep track of-->
+       <nav id = "scores">
+        <label for = "playerTotal"> Player
+        <p id = "playerTotal">0</p>
+        </label>
+
+
+        <label for = "computerTotal"> Computer
+        <p id = "computerTotal">0</p>
+        </label>
         </nav>
-        <div id = "intro">
-            <h1><span id = "hello">Hello world, my name is </span><br>
-                Edward Munoz. <br>
-                <span id = "front">A front-end developer.</span></h1>
+
+        <div id = "rps-header">
+            <label for = "roundResults"> Rock, Paper, Scissors?</label>
         </div>
 
-        <div id = "contact-me">
-            <a href="contact.html">Contact me</a>
+    <div id = "button-container">
+            <div id = "roundResults">
+                    <label for = "roundResults">Make your choice! </label>
+                </div>
+
+            <button id = "rock" class = "buttons">Rock</button>
+            <button id = "paper" class = "buttons">Paper</button>
+            <button id = "scissors" class = "buttons">Scissors</button>
+    </div>
+
+        <div id = "gameTotal">
+            <div id = "finalTotal"></div>
         </div>
 
-        <h2>
-            Projects
-        </h2>
-
-        <h2>
-            About Me
-        </h2>
+        <script src = "rock.js"></script>
     </body>
 </html>
