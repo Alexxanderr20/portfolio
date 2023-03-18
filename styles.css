@@ -1,6 +1,7 @@
 body
 {
     background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2
@@ -12,6 +13,17 @@ h2
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h3
+{
+    margin-left: 10%;
+    color: gray;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p
+{
+    color: white;
+}
 
 a
 {
@@ -28,7 +40,7 @@ a:hover
 nav
 {   
     display: flex;
-    position: fixed;
+    position: static;
     left: 0;
     right: 0;
     align-items: center;
@@ -39,27 +51,27 @@ nav
 nav *
 {
     margin-left: auto;
-    /* margin-right: auto; */
-    /* padding-right: 1%; */
-    /* text-align: center; */
     display: inline;
-    color: aquamarine;
+    color: white;
 }
 
 nav li 
 {   
-    /* color: aquamarine; */
-    /* float: right; */
     margin: 45px;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
+}
+
+.numbers
+{
+    color: mediumaquamarine;
 }
 
 #intro
 {
     margin-left: 10%;
-    margin-top: 25%;
+    margin-top: 20%;
     display: inline-block;
     text-align: left;
     color: white;
@@ -88,3 +100,34 @@ nav li
     background-color: cadetblue;
     
 }
+
+#about-me
+{
+    margin-left: 10%;
+    font-size: 24px;
+}
+
+#tech
+{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+#tech-list
+{
+    display: inline-flexbox;
+    color: mediumseagreen;
+    list-style-type: circle;
+    margin-left: 12%;
+
+}
+
+/* #tech-list2
+{
+    color: mediumseagreen;
+    list-style-type: circle;
+    margin-left: 22%;
+    margin-bottom: 15%;
+
+} */
