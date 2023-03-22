@@ -116,18 +116,24 @@ nav li
 
 #tech-list
 {
-    display: inline-flexbox;
+    display: inline-block;
     color: mediumseagreen;
     list-style-type: circle;
     margin-left: 12%;
+    font-size: 25px;
+    /* border: red solid 2px; */
 
 }
 
-/* #tech-list2
+#tech-list2
 {
+    display: inline-block;
     color: mediumseagreen;
     list-style-type: circle;
-    margin-left: 22%;
-    margin-bottom: 15%;
+    margin-left: 20%;
+    margin-bottom: 35%;
+    margin-top: 4%;
+    font-size: 25px;
+    /* border: red solid 2px; */
 
-} */
+}
