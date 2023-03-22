@@ -1,44 +1,86 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel = "stylesheet" href= "styles/styles.css">
         <title>
-            Rock,Paper,Scissors
+            Edward | Web Portfolio
         </title>
-        <link rel = "stylesheet" type = "text/css" href = "rps.css">
     </head>
 
     <body>
-
-    <!-- creating a scoreboard to keep track of-->
-       <nav id = "scores">
-        <label for = "playerTotal"> Player
-        <p id = "playerTotal">0</p>
-        </label>
-
-
-        <label for = "computerTotal"> Computer
-        <p id = "computerTotal">0</p>
-        </label>
+        <nav>
+            <ul>
+                <li><a href = "about.html"><span class = "numbers">0.1</span> About Me</a></li>
+                <li><a href = "projects.html"><span class = "numbers">0.2</span> Projects</a></li>
+                <li><a href = "resume"><span class = "numbers">0.3</span> Contact</a></li>
+            </ul>
         </nav>
-
-        <div id = "rps-header">
-            <label for = "roundResults"> Rock, Paper, Scissors?</label>
+        <div id = "intro">
+            <h1><span id = "hello">Hello world, my name is </span><br>
+                Edward Munoz. <br>
+                <span id = "front">A front-end developer.</span></h1>
         </div>
 
-    <div id = "button-container">
-            <div id = "roundResults">
-                    <label for = "roundResults">Make your choice! </label>
-                </div>
-
-            <button id = "rock" class = "buttons">Rock</button>
-            <button id = "paper" class = "buttons">Paper</button>
-            <button id = "scissors" class = "buttons">Scissors</button>
-    </div>
-
-        <div id = "gameTotal">
-            <div id = "finalTotal"></div>
+        <div id = "contact-me">
+            <a href="contact.html">Contact me</a>
         </div>
 
-        <script src = "rock.js"></script>
+        <h2>
+            <span class = "numbers">0.1</span> About Me
+        </h2>
+
+        <p id = "about-me">
+           Hello! My name is Edward and I love creating things that involve <br>
+           coding and the internet. I learned about the idea of coding and web <br>
+           development through freeCodeCamp, more sepcifically the front-end development <br>
+           section, and I've been obssessed ever since! <br><br><br>
+
+           Fast forward three years later, and I've managed to build the website, <br> 
+           that you're currently visting as well as a couple of other interesting side projects <br>
+           involving not only HTML and CSS, but also JavaScript. <br><br><br>
+
+           I'm currently a junior studying software engineering in university as well, <br>
+           and I hope to put those skills to use whether it be a client, a start-up, or an established company.
+        </p>
+
+        <section>
+            <p id = "tech">
+                Here are a couple of technologies that I am comfortable working with: 
+            </p>
+            <div id = "tech-list">
+             <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            </div>
+            <div  id = "tech-list2">
+             <ul>
+                 <li>C</li>
+                 <li>Git</li>
+                 <li>GitHub</li>
+             </ul>
+            </div>
+              
+        </section>
+
+
+        <h2>
+            Projects
+        </h2>
+        <p>
+            A couple of projects that helped me learn and grow as a front-end developer.
+        </p>
+
+        <h3>
+            Rock-Paper-Scissors
+        </h3>
+        <p>
+
+        </p>
+
+        <h2>
+            About Me
+        </h2>
     </body>
 </html>
