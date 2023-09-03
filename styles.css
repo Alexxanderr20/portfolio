@@ -20,9 +20,11 @@ h3
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 p
 {
     color: white;
+    font-size: 35px;
 }
 
 a
@@ -81,7 +83,8 @@ nav li
 
 #hello
 {
-    font-size: 35px;
+    color: mediumseagreen;
+    font-size: 25px;
 }
 
 #front
@@ -101,11 +104,11 @@ nav li
     
 }
 
-#about-me
+/* #about-me
 {
     margin-left: 10%;
     font-size: 24px;
-}
+} */
 
 #tech
 {
@@ -120,7 +123,7 @@ nav li
     color: mediumseagreen;
     list-style-type: circle;
     margin-left: 12%;
-    font-size: 25px;
+    font-size: 35px;
     /* border: red solid 2px; */
 
 }
@@ -133,7 +136,25 @@ nav li
     margin-left: 20%;
     margin-bottom: 35%;
     margin-top: 4%;
-    font-size: 25px;
+    font-size: 35px;
     /* border: red solid 2px; */
 
+}
+
+a:hover
+{
+    color: red;
+}
+
+#contact-me
+{
+    /* margin: 0; */
+    border: 3px solid mediumspringgreen;
+    padding: 3.5%;
+    background-color: black;
+}
+
+#button-name 
+{
+    color: mediumspringgreen;
 }
