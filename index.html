@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel = "stylesheet" href= "styles/styles.css">
+        <link rel = "stylesheet" href = "/styles/styles.css" type = "text/css">
         <title>
-            Edward | Web Portfolio
+            Edward Munoz|Web Portfolio
         </title>
     </head>
 
     <body>
         <nav>
             <ul>
-                <li><a href = "about.html"><span class = "numbers">0.1</span> About Me</a></li>
-                <li><a href = "projects.html"><span class = "numbers">0.2</span> Projects</a></li>
-                <li><a href = "resume"><span class = "numbers">0.3</span> Contact</a></li>
+                <li><a href = "about.html"><span class = "numbers">-</span> About Me</a></li>
+                <li><a href = "projects.html"><span class = "numbers">-</span> Projects</a></li>
+                <li><a href = "resume"><span class = "numbers">-</span> Contact</a></li>
             </ul>
         </nav>
         <div id = "intro">
@@ -22,7 +22,7 @@
         </div>
 
         <div id = "contact-me">
-            <a href="contact.html">Contact me</a>
+            <a id = "button-name" href="contact.html">Contact me</a>
         </div>
 
         <h2>
@@ -43,7 +43,33 @@
            and I hope to put those skills to use whether it be a client, a start-up, or an established company.
         </p>
 
-        <section>
+
+        <section id = "projects">
+            <h1>Projects</h1>
+            <p>
+                A couple of projects that helped me learn and grow as a front-end developer.
+            </p>
+
+            <h2>Rock-Paper-Scissors</h2>
+            <a href = "https://alexxanderr20.github.io/rock-paper-scissors/">Click here</a>
+
+            <p>
+                This is the first project that I worked on. In this project I learned the fundamentals
+                of web development, more sepcifically HTML,CSS,and JavaScript. 
+            </p>
+            
+            <br>
+
+            <h2>Desktop Calculator</h2>
+            <p>
+                This is the second project that I worked on. In this project I learned how to use
+            </p>
+        </section>
+
+
+
+
+        <!-- <section>
             <p id = "tech">
                 Here are a couple of technologies that I am comfortable working with: 
             </p>
@@ -52,6 +78,7 @@
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
+                <li>React</li>
             </ul>
             </div>
             <div  id = "tech-list2">
@@ -62,25 +89,26 @@
              </ul>
             </div>
               
-        </section>
+        </section> -->
 
 
         <h2>
-            Projects
+            Contact Me
         </h2>
-        <p>
-            A couple of projects that helped me learn and grow as a front-end developer.
-        </p>
 
-        <h3>
-            Rock-Paper-Scissors
-        </h3>
-        <p>
-
-        </p>
-
-        <h2>
-            About Me
-        </h2>
+        <div id = "contact">
+            <form>
+                <label for = "name">Name</label><br>
+                <input type = "text" id = "name" name = "firstName" placeholder= "Name"><br>
+                <label for = "email">Email</label><br>
+                <input type = "email" id = "email" name = "email" placeholder="Email"><br>
+                <label for = "subject">Subject</label><br>
+                <input type = "text" id = "subject" name = "subject" placeholder= "Subject"><br>
+                <label for = "message">Message</label><br>
+                <input type = "textarea" id = "message" name = "message" placeholder="Message"><br>
+                <label for = "submit">Send message</label><br>
+                <input type = "submit" id = "submit" name = "submit">
+            </form>
+        </div>
     </body>
 </html>
